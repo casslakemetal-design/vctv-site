@@ -8,7 +8,7 @@
   :root { --bg:#fff; --fg:#1b1b1f; --muted:#5b5b66; --line:#e3e3e8; --accent:#c4302b; }
   @media (prefers-color-scheme: dark) { :root { --bg:#141417; --fg:#ececf1; --muted:#a3a3ad; --line:#2c2c33; --accent:#ff5a52; } }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 70vh; }
   h1 { font-size: 1.9rem; margin: 0 0 4px; }
   h2 { margin-top: 2.2em; padding-top: 1em; border-top: 1px solid var(--line); }
   h3 { margin-top: 1.4em; }
@@ -53,7 +53,7 @@
     <li>The tool does not use cookies or tracking on this website and does not place cookies on viewers' devices.</li>
   </ul>
 
-  <h3>How long data is kept, and deleting it</h3>
+  <h3 id="retention">How long data is kept, and deleting it</h3>
   <ul>
     <li>Public video information from YouTube (titles, channel names) is deleted automatically once it is 30 days old.</li>
     <li>View counts and statistics derived from them are kept for up to 36 months, as YouTube's policy on derived metrics and data storage allows.</li>
