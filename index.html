@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VCTV Clip Engine</title>
+<style>
+  :root { --bg:#fff; --fg:#1b1b1f; --muted:#5b5b66; --line:#e3e3e8; --accent:#c4302b; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141417; --fg:#ececf1; --muted:#a3a3ad; --line:#2c2c33; --accent:#ff5a52; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { margin-top: 2.2em; padding-top: 1em; border-top: 1px solid var(--line); }
+  h3 { margin-top: 1.4em; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  nav a { margin-right: 18px; color: var(--accent); font-weight: 600; }
+  .badge { display:inline-block; border:1px solid var(--line); border-radius:6px; padding:6px 10px; margin-top:12px; color:var(--muted); }
+  a { color: var(--accent); }
+  small { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>VCTV Clip Engine</h1>
+  <p class="sub">A personal tool for the YouTube channel <b>gtavicecitytv</b> (Vice City TV).</p>
+  <nav><a href="#privacy">Privacy Policy</a><a href="#terms">Terms of Service</a><a href="#contact">Contact</a></nav>
+  <p class="badge">This app uses YouTube API Services.</p>
+
+  <h2 id="about">What it is</h2>
+  <p>VCTV Clip Engine is a private desktop tool run by one person, the owner of the gtavicecitytv channel, on their own Windows PC. It helps the owner make short gaming clips (YouTube Shorts) from live streams of creators whose official clipping campaigns the owner has joined. Each clip gets captions, the owner's commentary, a visible credit to the original creator and any disclosure the campaign requires.</p>
+  <p>The owner reviews every clip on a private review screen. A clip is uploaded to the owner's own YouTube channel only after the owner approves it. The tool is not offered to the public, has no other users and does not access anyone else's YouTube account.</p>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <p><small>Last updated: November 19, 2026</small></p>
+
+  <h3>Who this covers</h3>
+  <p>The only user of VCTV Clip Engine is its owner. The tool does not collect information from visitors, viewers or any other person.</p>
+
+  <h3>YouTube API Services</h3>
+  <p>VCTV Clip Engine uses YouTube API Services. By using it, the owner agrees to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h3>What data the tool accesses</h3>
+  <ul>
+    <li><b>The owner's Google sign-in (OAuth token)</b>: used only to upload owner-approved clips to the owner's own channel, change a clip's privacy setting when the owner asks, and confirm which channel is signed in.</li>
+    <li><b>View counts of the owner's own uploaded clips</b>: used to show the owner how each clip performs.</li>
+    <li><b>Public video information</b> (titles, lengths, publish times and view counts of popular public GTA 6 Shorts): used to give the owner general guidance on clip length and posting times.</li>
+  </ul>
+
+  <h3>How the data is stored and shared</h3>
+  <ul>
+    <li>Everything is stored only on the owner's own PC. Nothing is sent to a server run by this tool, and nothing is sold or shared with advertisers.</li>
+    <li>Public video titles and numbers may be sent to an AI service (Anthropic's Claude API) to summarize general patterns for the owner. No account data, sign-in tokens or personal information is sent.</li>
+    <li>The tool does not use cookies or tracking on this website and does not place cookies on viewers' devices.</li>
+  </ul>
+
+  <h3>How long data is kept, and deleting it</h3>
+  <ul>
+    <li>Public video information from YouTube (titles, channel names) is deleted automatically once it is 30 days old.</li>
+    <li>View counts and statistics derived from them are kept for up to 36 months, as YouTube's policy on derived metrics and data storage allows.</li>
+    <li>The owner can delete all stored data at any time by deleting the tool's data folder, and can delete the saved sign-in by deleting its token file.</li>
+    <li>Access can be revoked at any time through the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. Once access is revoked, the tool can no longer reach the YouTube account. The owner deletes the tool's stored YouTube data within 7 days of revoking access.</li>
+  </ul>
+
+  <h3>Changes</h3>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2 id="terms">Terms of Service</h2>
+  <p><small>Last updated: November 19, 2026</small></p>
+  <ol>
+    <li>VCTV Clip Engine is a personal tool used only by its owner, for the owner's own YouTube channel. It is not offered, sold or licensed to anyone else.</li>
+    <li>Use of the tool is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://developers.google.com/youtube/terms/developer-policies">YouTube API Services Developer Policies</a>.</li>
+    <li>Clips are made only from creators whose official clipping campaigns the owner has joined. Every clip credits the original creator and includes any disclosure the campaign requires.</li>
+    <li>Nothing is uploaded without the owner's explicit approval of that clip.</li>
+    <li>The tool is provided as is, without warranties.</li>
+  </ol>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about this tool or this policy: <a href="mailto:casslakeoffroadpowersports@gmail.com">casslakeoffroadpowersports@gmail.com</a></p>
+</main>
+</body>
+</html>
